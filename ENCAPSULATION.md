@@ -28,10 +28,10 @@ To write a Python program to create a class `Student` with the private members `
 class Student:
 
    def __init__(self, name, age):
-   
- # private member
+
  
    self.name = name
+   
    self.__age = age
 
  def get_age(self):
@@ -45,13 +45,13 @@ class Student:
 
 stud = Student('Jessa', 14)
 
-# retrieving age using getter
+
 
 print('Name:', stud.name, stud.get_age())
 
 stud.set_age(16)
 
-# retrieving age using getter
+
 
 print('Name:', stud.name, stud.get_age())
 
