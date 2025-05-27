@@ -31,7 +31,7 @@ Create two instances of the complex class with required real and imaginary parts
 
 Perform Operation:
 
-Use the overloaded + operator to compute the product and display the result.
+
 ---
 
 ### PROGRAM
