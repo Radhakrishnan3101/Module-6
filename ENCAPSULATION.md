@@ -25,15 +25,41 @@ To write a Python program to create a class `Student` with the private members `
 
 ### PROGRAM
 
-```
+class Student:
 
+   def __init__(self, name, age):
+   
+ # private member
+ 
+   self.name = name
+   self.__age = age
 
+ def get_age(self):
+    
+   return self.__age
 
-```
+   def set_age(self,age):
+    
+ self.__age=age
+    
+
+stud = Student('Jessa', 14)
+
+# retrieving age using getter
+
+print('Name:', stud.name, stud.get_age())
+
+stud.set_age(16)
+
+# retrieving age using getter
+
+print('Name:', stud.name, stud.get_age())
+
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/7aec1913-d71f-4fc7-ad8d-14b8649081d0)
 
 ### RESULT
 
-
+Thus the python program was initialised and executed successfully.
